@@ -21,6 +21,7 @@ public class RegistroLivros {
         livro.setEdicao(5);
 
         //Imprime na Tela
-        livro.Imprimir(livro.generateCSV());
+        String printLivro = livro.generateCSV();
+        livro.Imprimir(printLivro);
     }
 }
